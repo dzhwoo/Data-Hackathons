@@ -1,0 +1,12 @@
+Describe Methodology, what worked as well as further improvements.
+
+Goal/Objective: Given a question from quora, classify question into topics. Return top 10 topics ordered by probability.
+
+Methodology: 
+1) Modeled this problem as a multi-label problem, since each questions could belong to one ore more topics.
+2) For the questions text, determined frequency of terms. How often these terms occured and how often they were associated with certain topics.  i.e ( term: Father, topic: Lifestyle)
+3) Classification technique: Used Support Vector Classification. This seemed to better results than Naive Bayesian
+
+Results:
+
+Suggestion for further improvements:
