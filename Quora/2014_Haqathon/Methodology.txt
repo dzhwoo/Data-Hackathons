@@ -8,5 +8,17 @@ Methodology:
 3) Classification technique: Used Support Vector Classification. This seemed to better results than Naive Bayesian
 
 Results:
+1) Returned top topics ( or multi topics) that correlate to the questions
 
 Suggestion for further improvements:
+1) Features 
+    i) Other than term frequency what was useful? Number of phrases? terms that are made of one or more words? 
+2) Modeling
+    i) Cross-validation.
+    ii)Other techniques
+    iii)Returning top 10 labels
+3) Performance
+    i) Scoring methodology. Rate of classification? How would I score this? Based on number of topics correctly classified?
+    
+Citations/References
+1) http://blog.hanxiaogang.com/quora-ml-problem.html
